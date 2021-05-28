@@ -6,5 +6,5 @@ let
   # pkgs = import (fetchTarball("channel:nixpkgs-unstable")) {};
 
 in pkgs.mkShell {
-  buildInputs = [ pkgs.cargo pkgs.rustc pkgs.webkitgtk pkgs.pkg-config pkgs.kdialog];
+  buildInputs = [ pkgs.cargo pkgs.rustc pkgs.webkitgtk pkgs.pkg-config pkgs.kdialog ];
 }

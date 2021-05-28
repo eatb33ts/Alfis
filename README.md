@@ -57,7 +57,7 @@ yay -S alfis
 ```
 
 ### ![NixOS Logo](https://nixos.org/favicon.ico) On Nix/NixOS
-`nix-shell` in this repo and then run `cargo build` and `cargo install` after you have entered the shell.
+`nix-shell` in this repo and then run `cargo build` and `cargo run` after you have entered the shell.
 
 ## Installation
 
