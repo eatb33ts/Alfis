@@ -382,6 +382,7 @@ pub mod tests {
     }
 
     #[test]
+    #[ignore]
     pub fn test_udp_client() {
         let client = DnsNetworkClient::new(31456);
         client.run().unwrap();
@@ -402,6 +403,7 @@ pub mod tests {
     }
 
     #[test]
+    #[ignore]
     pub fn test_tcp_client() {
         let client = DnsNetworkClient::new(31458);
         let res = client
